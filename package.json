@@ -1,0 +1,27 @@
+{
+  "name": "clinic-demo",
+  "version": "0.0.0",
+  "description": "clinic api demo for Sainsbury",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elroyantao/Clinic-Demo.git"
+  },
+  "author": "Elroy Antao (elroyantao@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elroyantao/Clinic-Demo/issues"
+  },
+  "homepage": "https://github.com/elroyantao/Clinic-Demo#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "chalk": "^1.1.3",
+    "express": "^4.13.4",
+    "glob": "^7.0.3",
+    "lodash": "^4.13.1"
+  }
+}
