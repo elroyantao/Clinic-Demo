@@ -18,8 +18,8 @@ export function getClinicByCityAPI(city) {
   }).then(formatResponse);
 }
 
-function formatResponse(response){
-  if(!response.success){
+function formatResponse(response) {
+  if (!response.success) {
     throw response.error;
   }
   return response.result;
