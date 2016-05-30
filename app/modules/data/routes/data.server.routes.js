@@ -3,5 +3,5 @@ import {getClinicPostcode,getClinicName,getClinicCity} from '../controllers/data
 export default function(app){
   app.route('/clinics/postcode/:postcode').get(getClinicPostcode);
   app.route('/clinics/name/:name').get(getClinicName);
-  app.route('/clinics/city/:name').get(getClinicCity);
+  app.route('/clinics/city/:city').get(getClinicCity);
 }
